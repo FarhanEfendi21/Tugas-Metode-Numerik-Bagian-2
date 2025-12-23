@@ -46,7 +46,7 @@ Studi kasus ini menerapkan tiga skema pendekatan Turunan Numerik:
 
 3.  **Selisih Pusat (*Central Difference*)**
     * Digunakan pada seluruh **Titik Interior** (tengah).
-    * Metode ini dipilih sebagai prioritas karena memiliki akurasi lebih tinggi ($O(h^2)$) dibandingkan dua metode di atas.
+    * Metode ini dipilih sebagai prioritas karena memiliki akurasi lebih tinggi (O(h^2)) dibandingkan dua metode di atas.
     * Rumus: $f'(x_i) \approx \frac{f(x_{i+1}) - f(x_{i-1})}{2h}$.
 
 ---
